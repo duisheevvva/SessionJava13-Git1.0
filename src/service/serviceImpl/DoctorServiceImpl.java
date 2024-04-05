@@ -1,5 +1,10 @@
 package service.serviceImpl;
 
-public class DoctorServiceImpl
-{
+import service.DoctorService;
+
+public class DoctorServiceImpl implements DoctorService{
+    @Override
+    public String deleteDoctorById(Long id) {
+        return null;
+    }
 }

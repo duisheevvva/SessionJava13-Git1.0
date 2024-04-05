@@ -1,4 +1,10 @@
 package dao.daoImpl;
 
-public class HospitalDaoImpl {
+import dao.HospitalDao;
+
+public class HospitalDaoImpl implements HospitalDao {
+    @Override
+    public String deleteHospitalById(Long hospitalId) {
+        return null;
+    }
 }

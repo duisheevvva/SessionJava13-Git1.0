@@ -1,4 +1,10 @@
 package service.serviceImpl;
 
-public class HospitalServiceImpl {
+import service.HospitalService;
+
+public class HospitalServiceImpl implements HospitalService {
+    @Override
+    public String deleteHospitalById(Long id) {
+        return null;
+    }
 }

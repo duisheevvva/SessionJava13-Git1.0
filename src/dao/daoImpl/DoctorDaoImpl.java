@@ -1,4 +1,10 @@
 package dao.daoImpl;
 
-public class DoctorDaoImpl {
+import dao.DoctorDao;
+
+public class DoctorDaoImpl implements DoctorDao {
+    @Override
+    public String deleteDoctorById(Long id) {
+        return null;
+    }
 }
