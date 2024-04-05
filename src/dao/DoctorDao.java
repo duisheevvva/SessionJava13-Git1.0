@@ -5,6 +5,6 @@ import models.Doctor;
 import java.util.List;
 
 public interface DoctorDao {
-    Doctor getByIdDoctor(Long id,Doctor doctor);
+    Doctor getByIdDoctor(Long id);
 }
 
