@@ -15,7 +15,7 @@ public class DepartmentDaoImpl implements DepartmentDao {
         department.setDepartmentName(scanner.nextLine());
         for (Hospital hospital : Database.hospitals){
             for (Department department1 : hospital.getDepartments()){
-                if(department1.getId()==Id){
+                if(department1.getId().equals(Id)){
                     department1.setDepartmentName(department.getDepartmentName());
                     return " Successfully updated department : "+department1;
                 }
