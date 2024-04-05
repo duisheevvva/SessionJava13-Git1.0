@@ -17,8 +17,6 @@ public class HospitalDaoImpl implements HospitalDao {
     return null;
 }
 
-
-
     @Override
     public List<Hospital> getAllHospitals() {
         return Database.hospitals;
